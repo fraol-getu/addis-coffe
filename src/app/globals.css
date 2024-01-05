@@ -1,27 +1,85 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,900;1,600&display=swap');
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+                
+*{
+  padding: 0;
+  margin: 0;
+  
+  font-family: 'Poppins', sans-serif;
   }
+  body{
+    background-color: #F9F6F1;
+  }
+  :root{
+   --black: #0a0a0a;
+   --white: #f9f6f1;
+   --whitebrown: #c7a17a;
+}
+h1{
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.7rem;
+}
+.section-title{
+color: var(--black);
+font-size: 1.8em;
+font-weight: 600;
+}
+.section-description{
+  color: var(--black);
+  font-size: 0.8rem;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.btn{
+width: 5.5rem;
+height: 1.8rem;
+border-radius: 0.7rem;
+border: 1px;
+padding: .09rem;
+text-align: center;
+background: var(--whitebrown);
+color: white;
+font-size: .7rem;
+font-weight: bold;
 }
+.btn1{
+  width: 5.5rem;
+  height: 1.8rem;
+  border-radius: 0.7rem;
+  border: 1px;
+  padding: .09rem;
+  text-align: center;
+  background: #FFFF;
+  color: var(--black);
+  font-size: .7rem;
+  font-weight: bold;
+  }
+
+
+
+  @media (max-width: 992px) {
+    .section-description{
+      font-size: 0.7rem;
+    }
+  }
+  
+  
+  @media (max-width: 560px) {
+    .section-title{
+      font-size: 1rem;
+    }
+
+
+    .btn{
+      width:4rem ;
+      height: 1.4rem;
+      font-size: .5rem ;
+      border-radius: 0.6rem;
+    }
+  }
+

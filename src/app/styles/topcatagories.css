@@ -1,0 +1,211 @@
+.top-wrapper{
+padding: 30px 150px;
+}
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    gap: 1rem;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    column-gap: 2rem;
+}
+.top-image-container{
+background-image:  url(../assets/coffe.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 19rem;
+height: 15rem;
+border-radius: 2rem;
+padding-top: 3rem;
+z-index: 1;
+ 
+}
+
+.top-image-container2{
+    background-image: url(../assets/coffe2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 19rem;
+    height: 15rem;
+    border-radius: 2rem;
+    padding-top: 3rem;
+    z-index: 1;
+    
+    }
+
+
+    .top-image-container3{
+        background-image: url(../assets/c.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 19rem;
+        height: 15rem;
+        border-radius: 2rem;
+        padding-top: 3rem;
+        z-index: 1;
+        
+        }
+.top-description{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap: 2rem;
+ padding-top: 1rem;
+
+}
+.top-description h2 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+    opacity: 4;
+    z-index: 99;
+}
+
+.top-description h2::after{
+   content: "";
+   height: 3px;
+   width: 25%;
+   bottom: -20%;
+   left: 40%;
+   background: var(--white);
+   position: absolute;
+
+}
+.top-description p{
+ color: #ffffff;
+ font-size: 1rem;
+ font-weight: 800;
+ opacity: 4;
+}
+
+
+@media (max-width: 992px) {
+ .top-section{
+    column-gap: 1.5rem;
+ }
+    .top-image-container{
+
+ width: 15rem;
+ height: 12rem;
+border-radius: 1.5rem;
+ }
+ .top-image-container2{
+
+    width: 15rem;
+    height: 12rem;
+   border-radius: 1.5rem;
+    }
+    .top-image-container3{
+
+        width: 15rem;
+        height: 12rem;
+       border-radius: 1.5rem;
+        }
+        .top-description h2{
+            font-size: 1.3rem;
+        }
+}
+
+@media (max-width: 768px) {
+
+
+
+    .top-image-container{
+
+        width: 11.5rem;
+        height: 10rem;
+       border-radius: 1.2rem;
+        }
+        .top-image-container2{
+       
+           width: 11.5rem;
+           height: 10rem;
+          border-radius: 1.2rem;
+           }
+           .top-image-container3{
+       
+               width: 11.5rem;
+               height: 10rem;
+              border-radius: 1.2rem;
+               }
+               .top-description h2{
+                   font-size: 1.1rem;
+               }
+               .top-description p{
+                font-size: 0.7rem;
+               }
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 592px) {
+    .top-image-container{
+        background-image:  url(../assets/coffe.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 15rem;
+        height: 11rem;
+        border-radius: 1rem;
+        padding-top: 3rem;
+        z-index: 1;
+         
+
+        }
+        .top-wrapper{
+            padding: 10px 10px;
+        }
+        
+        .top-image-container2{
+            background-image:  url(../assets/coffe2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 15rem;
+            height: 11rem;
+            border-radius: 1rem;
+            padding-top: 3rem;
+            z-index: 1;
+             
+            }
+            .top-image-container3{
+                background-image:  url(../assets/c.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 15rem;
+                height: 11rem;
+                border-radius: 1rem;
+                padding-top: 3rem;
+                z-index: 1;
+                 
+                }
+                .top-description h2{
+                    font-size: 1.4rem;
+                }
+                .top-section{
+                    flex-wrap: wrap;
+                    gap: 2rem;
+                }
+
+
+}

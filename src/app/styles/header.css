@@ -1,0 +1,313 @@
+
+
+
+/* header-top */
+
+.header-top{
+    padding: 10px 50px;
+    background: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+    position: relative;
+
+}
+
+.header-top h6{
+ color: #EEEEEE;
+ font-size: 0.7rem;
+  font-weight: 250;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.header-top-right{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-top-right-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+     position: relative;
+}
+
+.header-top-right-left::after{
+    content: "";
+    height: 1.5rem;
+     width: 0.1px;
+      left: 107%;
+     background: #EEEEEE;
+     font-weight:0;
+     position: absolute;
+}
+.header-top-right-left h4{
+    font-size: 0.7rem;
+    font-weight: 250;
+    color: #EEEEEE;
+}
+.header-top-right-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    
+}
+.header-top-right-right h4{
+    font-size: 0.7rem;
+     font-weight: 250;
+    color: #EEEEEE;
+
+}
+
+
+
+.option{
+    background: var(--black);
+    border: none;
+    outline: none;
+    color: #F5EDED;
+    font-size: 0.7rem;
+     font-weight: 250;
+}
+
+/* header middle */
+
+.header-middle{
+ padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+
+}
+.header-middle-left{
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap: 0.7rem;
+}
+.header-middle-icon{
+    color: var(--black);
+     font-size: 2rem;
+}
+.header-middle-left-text{
+    font-size: 0.7rem;
+     color: var(--black);
+}
+.header-middle-middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-middle-middle h1{
+    color: var(--black);
+    font-weight: 600;
+}
+.coffe-image{
+    color: #bf582a;
+}
+.header-middle-right{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ column-gap: 2rem;
+}
+.user{
+    font-size: 3rem;
+    color: var(--whitebrown);
+}
+.basket{
+    font-size: 3rem;
+    color: var(--whitebrown);
+}
+
+.header-middle-right-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.header-middle-right-right p{
+    font-size: 0.7rem;
+    color: var(--black);
+    font-weight: 500;
+}
+/* header bottom */
+
+.header-bottom{
+ padding: 20px 50px;
+ background:#BF9B75;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+
+.nav-item{
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ column-gap: 2rem;
+}
+.items{
+font-size: 1rem;
+color: var(--black);
+font-weight: 700;
+
+}
+.header-bottom-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     gap: 0.7rem;
+     justify-content: flex-end;
+     z-index: 1;
+    }
+
+.input{
+    width: 15rem;
+    height: 2.5rem;
+     border-radius: 1.8rem;
+     font-size: 1rem;
+     padding: 10px;
+     border: none;
+     outline: none;
+    }
+    .input:hover{
+        cursor: pointer;
+    }
+
+    .search{
+        font-size: 1.2rem;
+        color: #EEEEEE;
+         font-weight: 300;
+         
+        }
+        .search:hover{
+            cursor: pointer;
+        }
+
+        .header-bottom button{
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+        }
+        .mobile-menu{
+            display: none;
+        }
+
+     @media (max-width: 760px) {
+     .header-top{
+        display: none;
+     }
+      
+     .header-middle{
+        display: none;
+     }
+
+     .header-bottom-right{
+        display: none;
+     }
+     .nav-item {
+       display: none;
+     }
+     .mobile-menu{
+        display: block;
+        z-index: 100;
+     }
+     .items{
+        color: white;
+        font-size: 0.8rem;
+     }
+     .nav-item-mobile{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 50px 50px;
+        list-style: none;
+        box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+        left: 0;
+        top: 8%;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        background: #000000;
+        color: white;
+        z-index: 99;
+    }
+     }
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* 
+
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
+export const Header = () => {
+  const router = useRouter();
+
+  return (
+    <header>
+      <Link href="/">
+        <a className={router.pathname == "/" ? "active" : ""}>
+           Home
+        </a>
+      </Link>
+    </header>
+  )
+}
+
+*/
