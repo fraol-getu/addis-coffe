@@ -7,6 +7,7 @@ import Gallery from './components/ui/gallery'
 import SpecialProducts from './components/ui/specialproducts'
 import Blog from './components/ui/blog'
 import Partner from './components/ui/partner'
+import Notfound from './notfound/Notfound'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
      <SpecialProducts/>
    <Blog/>
    <Partner/>
+   <Notfound/>
  </div>
 
 

@@ -11,6 +11,7 @@ import Link from 'next/link';
 import { FaSearch } from "react-icons/fa";
 import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
+import Notfound from '@/app/notfound/Notfound';
 
 
 
@@ -84,11 +85,12 @@ const Header = () => {
       <div className="header-bottom-left">
        <ul className='menu'>
         <li className={open ? "nav-item-mobile" : "nav-item"}>
-     <Link className='items' href='/*'>Home</Link>
+     <Link className='items' href='/'>Home</Link>
      <Link className='items' href='/*'>About</Link>
      <Link className='items' href='/*'>Order</Link>
      <Link className='items' href='/*'>Blog</Link> 
      <Link className='items' href='/*'>Contact</Link> 
+     <Link href='/Notfound'></Link>
         </li>
 
        </ul>
