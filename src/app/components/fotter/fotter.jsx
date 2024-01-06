@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import Image from 'next/image';
 import Visa from '../../assets/visa.svg'
-import PayPal from '../../assets/PayPal.svg'
+import PayPal from '../../assets/paypal.svg'
 import MasterCard from '../../assets/mastercard.svg'
 import Discover from '../../assets/discover.svg'
 const date = new Date()

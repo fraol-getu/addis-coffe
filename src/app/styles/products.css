@@ -22,15 +22,15 @@ gap: 2.5rem;
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 2rem;
+gap: 1.5rem;
 
 }
-.product-detail-section{
+.product-detail-section1{
 position: relative;
 padding: 30px ;
 background: #FFFF;
 width: 15rem;
-height: 24rem;
+height: 23rem;
 display: flex;
 align-items: center;
 justify-content: center;

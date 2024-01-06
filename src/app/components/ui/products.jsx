@@ -22,7 +22,7 @@ const Products = () => {
         <button className='btn1'>BestSeller</button>
       </div>
       <div className="product-section">
-      <div className="product-detail-section">
+      <div className="product-detail-section1">
       <div className="image-container">
        <Image src={Product1} alt='product' className='p-image'/>
        </div>
@@ -54,7 +54,7 @@ const Products = () => {
 
       
 
-      <div className="product-detail-section">
+      <div className="product-detail-section1">
       <div className="image-container">
        <Image src={Product3} alt='product' className='p-image'/>
        </div>
@@ -83,7 +83,7 @@ const Products = () => {
 
       </div>
 
-      <div className="product-detail-section">
+      <div className="product-detail-section1">
        <div className="image-container">
        <Image src={Product6} alt='product' className='p-image'/>
        </div>
@@ -116,7 +116,7 @@ const Products = () => {
       
       
       
-      <div className="product-detail-section">
+      <div className="product-detail-section1">
       <div className="image-container">
        <Image src={Product4} alt='product' className='p-image'/>
       </div>

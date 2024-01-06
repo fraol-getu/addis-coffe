@@ -1,3 +1,7 @@
+import 'remixicon/fonts/remixicon.css'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import Image from 'next/image'
 import Hero from './components/ui/hero'
 import Service from './components/ui/service'

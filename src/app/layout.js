@@ -2,9 +2,7 @@
 import Footer from './components/fotter/fotter'
 import Header from './components/header/header'
 import './globals.css'
-import 'remixicon/fonts/remixicon.css'
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+
 
 
 
