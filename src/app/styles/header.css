@@ -250,6 +250,16 @@ font-weight: 700;
     }
      }
 
+     @media (max-width: 490px) {
+
+.nav-item-mobile{
+    top: 7%;
+}
+
+
+
+     }
+
 
 
      
