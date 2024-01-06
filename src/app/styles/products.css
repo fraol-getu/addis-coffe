@@ -30,7 +30,7 @@ position: relative;
 padding: 30px ;
 background: #FFFF;
 width: 15rem;
-height: 23rem;
+height: 24rem;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -125,7 +125,7 @@ font-weight: 600;
 
 
 @media (max-width: 768px) {
- .product-detail-section{
+ .product-detail-section1{
   gap: 0.5rem;
  } 
   
