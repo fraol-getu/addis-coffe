@@ -55,9 +55,10 @@
         display: flex; 
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 8px;
         padding: 18px 22px;
         width: 30%;
+        height: 7rem;
         border: 1px solid  #FFFF; 
         background-color: #FFFF;
         border-radius: 0.9rem;
@@ -91,10 +92,10 @@
         display: flex; 
         justify-content: center;
         align-items: center;
-        gap: 10px;
-        padding: 17px 21px;
+        gap: 8px;
+        padding: 13px 18px;
         width: 40%;
-        height: 50%;
+        height: 6rem;
         border: 1px solid  #FFFF; 
         background-color: #FFFF;
         border-radius: 0.9rem;

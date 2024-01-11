@@ -37,27 +37,36 @@ font-weight: 600;
 }
 
 .btn{
-width: 5.5rem;
-height: 1.8rem;
-border-radius: 0.7rem;
+width: 7.5rem;
+height: 2.1rem;
+border-radius: 1rem;
 border: 1px;
 padding: .09rem;
 text-align: center;
 background: var(--whitebrown);
 color: white;
-font-size: .7rem;
+font-size: .8rem;
 font-weight: bold;
 }
+
+.btn:hover{
+  transform: scale(1.1);
+}
+.btn1:hover{
+  transform: scale(1.1);
+}
+
+
 .btn1{
-  width: 5.5rem;
-  height: 1.8rem;
-  border-radius: 0.7rem;
+  width: 7.5rem;
+  height: 2.1rem;
+  border-radius: 1rem;
   border: 1px;
   padding: .09rem;
   text-align: center;
   background: #FFFF;
   color: var(--black);
-  font-size: .7rem;
+  font-size: .8rem;
   font-weight: bold;
   }
 
@@ -77,9 +86,15 @@ font-weight: bold;
 
 
     .btn{
-      width:4rem ;
-      height: 1.4rem;
-      font-size: .5rem ;
+      width:5.5rem ;
+      height: 1.5rem;
+      font-size: .6rem ;
+      border-radius: 0.6rem;
+    }
+    .btn1{
+      width:5.5rem ;
+      height: 1.5rem;
+      font-size: .6rem ;
       border-radius: 0.6rem;
     }
   }
